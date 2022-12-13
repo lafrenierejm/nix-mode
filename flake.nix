@@ -15,6 +15,7 @@
           mmm-mode
           magit-section
           transient
+          reformatter
         ]);
       in stdenv.mkDerivation {
         pname = "nix-mode";
